@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+
+header {
+    background-image: url(/img/hero.jpg);
+    background-size: cover;
+    background-position: center; 
+    height: 100vh;
+}
+
+.heading-content {
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid rgba(9, 132, 227, 0.6);
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    background-color: rgba(9, 132, 227, 0.6);
+    padding: 0.5rem;
+
+}
+
+.heading-p-main {
+    font-size: 6rem;
+    display: block;
+    letter-spacing: 1rem;
+    text-align: center;
+}
+
+.heading-p-sub {
+    font-size: 3.5rem;
+    display: block;
+    letter-spacing: 0.5rem;
+    text-align: center;
+}
